@@ -1,8 +1,32 @@
 * {
     box-sizing: border-box;
+    font-family: 'Brush Script MT', cursive;
 }
 
-img {
-    width: 480px;
-    height: 400px;
+body {
+    background-color: grey;
+}
+
+li, a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-weight: 1000;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 10%;
+}
+
+a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.bottom-bar{
+    border: 1px solid white;
 }
