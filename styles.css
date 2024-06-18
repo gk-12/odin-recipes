@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 * {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
@@ -11,9 +10,12 @@ body {
     font-style: normal;
     color: black;
     background: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-li, a {
+li, a:not(.footer-link) {
     list-style: none;
     text-decoration: none;
     color: black;
@@ -64,3 +66,13 @@ a:hover{
     flex: 1;
 }
 
+#footer-bottom {
+    margin-top: auto;
+    text-align: center;
+    background: beige;
+}
+
+.footer-link {
+    color: black;
+    font-weight: 1000;
+}
