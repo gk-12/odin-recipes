@@ -19,6 +19,8 @@ li, a:not(.footer-link) {
     list-style: none;
     color: white;
     font-weight: 1000;
+    text-decoration: none;
+    padding: 0 5px;
 }
 
 
@@ -41,53 +43,56 @@ a:hover{
 }
 
  .title{
+    font-size: 2.5rem;
+    font-weight:bold;
  }
 
 .logo{
     background-color: white;
+    font-weight: 1000;
  }
 
 
 .nav-bar{
     position: sticky;
     top: 0;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     background-color: #222831 ;
 }
 
+.main{
+    display: flex;
+    justify-content: center;
+}
 
 .main > p {
     margin: 200px;
     font-size: 1.5rem;
     text-align: center;
-    align-items: center;
     display: flex;
-    justify-content: center;
+    min-width: 300px;
+    flex: 1;
+
 }
 .nav-bar > ul {
     display: flex;
-    justify-content: space-evenly;
-    flex: 1;
+    justify-content: center;
 }
 
-.recipe-2 {
-    flex: 2;
-}
 
-.recipe-1, .recipe-3{
-    flex: 1;
-}
+
 
 #footer-bottom {
     margin-top: auto;
     text-align: center;
     background: #e3f6f5;
     padding: 5px;
+    font-weight: bolder;
 }
 
 .footer-link {
     color: black;
-    font-weight: 1000;
+    font-weight: bolder;
 }
 
