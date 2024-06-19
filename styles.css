@@ -17,15 +17,14 @@ body {
 
 li, a:not(.footer-link) {
     list-style: none;
-    text-decoration: none;
-    color: black;
+    color: white;
     font-weight: 1000;
 }
 
 
 a:hover{
-    color: white;
-    background: black;
+    color: black;
+    background: white;
     border-radius: 15px;
 
 }
@@ -34,24 +33,38 @@ a:hover{
     border: 1px solid black;
 }
 
-.title{
-    text-align: center;
-    margin: 20px auto;
+.top-header{
+    display: flex;
+    margin-top: 20px auto;
+    justify-content: center;
+    align-items: center;
 }
+
+ .title{
+ }
+
+.logo{
+    background-color: white;
+ }
+
 
 .nav-bar{
     position: sticky;
     top: 0;
     padding: 20px;
     text-align: center;
+    background-color: #222831 ;
 }
 
-.main {
+
+.main > p {
     margin: 200px;
     font-size: 1.5rem;
     text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
-
 .nav-bar > ul {
     display: flex;
     justify-content: space-evenly;
@@ -69,10 +82,12 @@ a:hover{
 #footer-bottom {
     margin-top: auto;
     text-align: center;
-    background: beige;
+    background: #e3f6f5;
+    padding: 5px;
 }
 
 .footer-link {
     color: black;
     font-weight: 1000;
 }
+
